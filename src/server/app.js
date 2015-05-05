@@ -116,7 +116,8 @@ async.series([
                 src: p,
                 dest: p,
                 outputStyle: 'compressed',
-                force: config.server.always_recompile_sass
+                force: config.server.always_recompile_sass,
+                autoprefix: true
             }));
             app.use(path, express.static(p));
         };

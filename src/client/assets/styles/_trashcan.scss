@@ -3,10 +3,6 @@
   right: 20px;
   top: 16px; 
 
-  -moz-transition: right 0.2s ease-in;
-  -ms-transition: right 0.2s ease-in;
-  -o-transition: right 0.2s ease-in;
-  -webkit-transition: right 0.2s ease-in;
   transition: right 0.2s ease-in;
 
   &.confirm {
@@ -21,10 +17,6 @@
   right: 20px;
   top: 16px;
 
-  -moz-transition: opacity 0.1s 0.15s ease-in;
-  -ms-transition: opacity 0.1s 0.15s ease-in;
-  -o-transition: opacity 0.1s 0.15s ease-in;
-  -webkit-transition: opacity 0.1s 0.15s ease-in;
   transition: opacity 0.1s 0.15s ease-in;
 
   visibility: hidden;

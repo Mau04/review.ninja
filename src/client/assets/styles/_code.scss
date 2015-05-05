@@ -12,10 +12,6 @@
     margin-left: -20px;
     position: absolute;
 
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;    
     user-select: none;
 
     .octicon {
@@ -44,10 +40,6 @@
     border-right: 1px solid $code-line-number-color;
     text-align: right;
 
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;    
     user-select: none;
 
     width: 30px;

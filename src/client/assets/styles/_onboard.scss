@@ -2,7 +2,6 @@
   list-style-type: none;
   padding: 0;
 
-  -webkit-transition: opacity 0.5s; 
   transition: opacity 0.5s;
 
   &.complete {
@@ -14,12 +13,10 @@
     display: inline;
     padding: 0 10px;
 
-    -webkit-transition: opacity 1s; 
     transition: opacity 1s;
 
     .octicon-check {
       opacity: 0;
-      -webkit-transition: opacity 1s; 
       transition: opacity 1s;
     }
 
@@ -47,7 +44,6 @@
 .onboard-complete {
   height: 0;
   opacity: 0;
-  -webkit-transition: opacity 0.5s 0.5s; 
   transition: opacity 0.5s 0.5s;
 
   &.complete {
@@ -62,16 +58,13 @@
 
 // transitions for elements on the page
 .ob {
-  -webkit-transition: -webkit-transform 1s;
   transition: transform 1s;
 }
 
 .scale {
-  -webkit-transform: scale(1.15, 1.15);
   transform: scale(1.15, 1.15);
 }
 
 .rotate {
-  -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }

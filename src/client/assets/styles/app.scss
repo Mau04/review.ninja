@@ -210,10 +210,6 @@ h2,
 h3,
 h4,
 .lead {
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -278,10 +274,6 @@ h4,
 .octicon-trashcan {
   cursor: pointer;
 
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -294,8 +286,6 @@ h4,
 }
 
 .octicon-rotate {
-  -ms-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
@@ -317,10 +307,6 @@ textarea {
 }
 
 .no-select {
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
   user-select: none;
 }
 

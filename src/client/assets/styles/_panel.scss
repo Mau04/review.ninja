@@ -7,20 +7,12 @@
     border-bottom: 0;
     color: #fff;
     
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;    
     user-select: none;
   }
 
   .panel-body {
     border-bottom: 10px solid #fff;
 
-    -moz-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    -o-transition: background-color 1000ms linear;
-    -webkit-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
 
     &.highlight {
